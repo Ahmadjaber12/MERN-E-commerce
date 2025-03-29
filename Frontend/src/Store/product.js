@@ -46,6 +46,6 @@ export const useProductStore=create((set)=>({
     set((state)=>({
         products:state.products.map((p)=>(p._id===pid ? data.data : p))
     }))
-    return {success:true,message:data.message}
+    return {success:true,message:data.message} 
     }
 }))
