@@ -9,7 +9,7 @@ function App() {
 
   return (
     <Box minH={"100vh"} bg={useColorModeValue("gray.100","gray.900")}>
-      <NavBar/>
+    <NavBar/>
     <Routes>
      <Route path={"/"} element={<HomePage/>}/>
      <Route path={"/create"} element={<CreatePage/>}/>
